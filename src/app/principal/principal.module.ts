@@ -7,6 +7,7 @@ import { AgregarComponent } from './agregar/agregar.component';
 import { HomeComponent } from './home/home.component';
 
 import { RouterModule } from '@angular/router';
+import { TarjetaComponent } from './tarjeta/tarjeta.component';
 
 @NgModule({
 	declarations: [
@@ -14,7 +15,8 @@ import { RouterModule } from '@angular/router';
 		DescargadosComponent,
 		ProximamenteComponent,
 		AgregarComponent,
-		HomeComponent
+		HomeComponent,
+  TarjetaComponent
 	],
 	imports: [
 		CommonModule,

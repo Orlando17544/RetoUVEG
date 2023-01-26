@@ -8,7 +8,7 @@ import { ProximamenteComponent } from './principal/proximamente/proximamente.com
 import { AgregarComponent } from './principal/agregar/agregar.component';
 
 const routes: Routes = [
-	{ path: '', component: HomeComponent },
+	{ path: 'home', component: HomeComponent },
 	{ path: 'populares', component: PopularesComponent },
 	{ path: 'descargados', component: DescargadosComponent },
 	{ path: 'proximamente', component: ProximamenteComponent, },
